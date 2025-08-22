@@ -1,0 +1,88 @@
+{
+  "id": "UA2025-ApocalypticSubclasses",
+  "title": "UA2025: Apocalyptic Subclasses",
+  "description": "A Foundry implementation of the UA2025-ApocalypticSubclasses document released on D&DBeyond",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/ua2025-apocalyptic-subclasses.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Henry Malinowski",
+      "discord": "hmalinowski",
+      "flags": {}
+    }
+  ],
+  "packs": [    
+    {
+      "name": "content",
+      "label": "Apocalyptic Subclasses UA Document",
+      "system": "dnd5e",
+      "path": "packs/content",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Character Classes",
+      "system": "dnd5e",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "UA2025-ApocalypticSubclasses",
+      "color": "#4f4056",
+      "sorting": "m",
+      "packs": [
+        "content",
+        "classes"
+      ],
+      "folders": []
+    }
+  ],
+  "system": "dnd5e",
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "UA2025-ApocalypticSubclasses": "SOURCE.UA.2025.ApocalypticSubclasses"
+      }
+    }
+  },
+  "readme": "https://github.com/henry-malinowski/UA2025-ApocalypticSubclasses/master/Readme.md",
+  "bugs": "https://github.com/henry-malinowski/UA2025-ApocalypticSubclasses/-/issues",
+  "changelog": "https://github.com/henry-malinowski/UA2025-ApocalypticSubclasses/master/Changelog.md",
+  "url": "https://github.com/henry-malinowski/UA2025-ApocalypticSubclasses",
+  "manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-ApocalypticSubclasses/refs/heads/main/module.json",
+  "download": "https://github.com/henry-malinowski/UA2025-ApocalypticSubclasses/releases/download/v1.0.0/UA2025-ApocalypticSubclasses.zip"
+}
