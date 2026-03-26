@@ -2,7 +2,7 @@
 	"id": "UA2025-ApocalypticSubclasses",
 	"title": "UA2025: Apocalyptic Subclasses",
 	"description": "A Foundry implementation of the UA2025-ApocalypticSubclasses document released on D&DBeyond",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"compatibility": {
 		"minimum": "12",
 		"verified": "13"
