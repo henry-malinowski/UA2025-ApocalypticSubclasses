@@ -11,13 +11,13 @@ A Foundry implementation of the UA2025-ApocalypticSubclasses document released o
 
 ## Journal Integration
 
-<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ApoclypticSubclasses/refs/heads/main/github-assets/example_1.png">
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ApocalypticSubclasses/refs/heads/main/github-assets/example-1.png">
 
 ## New Compendia
 
-<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ApoclypticSubclasses/refs/heads/main/github-assets/example_2.png">
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ApocalypticSubclasses/refs/heads/main/github-assets/example-2.png">
 
-<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ApoclypticSubclasses/refs/heads/main/github-assets/example_3.png">
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ApocalypticSubclasses/refs/heads/main/github-assets/example-3.png">
 
 ## Installation:
 
