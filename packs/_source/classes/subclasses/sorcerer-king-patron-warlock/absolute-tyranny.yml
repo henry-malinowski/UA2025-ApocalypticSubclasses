@@ -1,0 +1,53 @@
+folder: LnozOmU4Q3WTNhEq
+name: Absolute Tyranny
+type: feat
+_id: uawlkAbsoluteTyr
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You wield your patron’s tyrannical might with absolute conviction.
+      Whenever you cast
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command},
+      you can target one additional creature within the spell’s range.
+      Additionally, a creature &amp;Reference[Frightened apply=false] by you
+      automatically fails its saving throw against any Command you cast.</p>
+    chat: ''
+  identifier: absolute-tyranny
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 14
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Sorcerer-King Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554410209
+  modifiedTime: 1774554410209
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkAbsoluteTyr'

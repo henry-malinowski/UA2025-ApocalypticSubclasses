@@ -1,0 +1,19 @@
+name: Gladiator (Fighter)
+sorting: a
+folder: 489z1OCUmwjWwMDU
+type: Item
+_id: WygkYONj32bk1I9J
+description: ''
+sort: 400000
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: null
+  modifiedTime: 1774551036808
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!WygkYONj32bk1I9J'

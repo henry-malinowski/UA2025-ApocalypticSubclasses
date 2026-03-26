@@ -1,0 +1,120 @@
+folder: 489z1OCUmwjWwMDU
+name: Sorcerer-King Patron
+type: subclass
+_id: uawlkSorcererKin
+img: modules/UA2025-ApocalypticSubclasses/assets/icons/classes/sorcerer-king.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Herald Tyrannical Might of Monstrous
+      Rulers</p></blockquote><p>Your pact draws from the power of a monstrous,
+      tyrannical force akin to a demigod or an overwhelmingly powerful
+      magic-user. Through your pact, you herald this tyrant’s interests in the
+      world, channeling their influence and mind-bending, psionic power.</p>
+    chat: ''
+  identifier: sorcerer-king-patron
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: Trait
+      _id: YaCQP5Adi5TAd2LM
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:itm
+        mode: forcedExpertise
+      value:
+        chosen: []
+      level: 3
+      title: Tyrant's Herald (Intimidating Presence)
+      hint: >-
+        You gain proficiency in the Intimidation skill if you don’t already have
+        it. You also have Expertise in Intimidation.
+    - type: ItemGrant
+      _id: ReCfbkCMskILe8LC
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkSpellsSorce
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCommand000
+          - optional: false
+            uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkTyrantsHera
+        optional: false
+        spell:
+          ability:
+            - cha
+          uses:
+            max: max(1,@abilities.cha.mod)
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: yZj1IsNjKV1mWQvp
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkDecisiveEdi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: PJcDljBfOAWvrMW3
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkVindictiveR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: E3c7Y0UfgblWybca
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkAbsoluteTyr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554161494
+  modifiedTime: 1774554573062
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkSorcererKin'

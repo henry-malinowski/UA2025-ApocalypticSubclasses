@@ -1,0 +1,553 @@
+folder: IJzjCzP6s3Srg6zl
+name: Defile and Empower
+type: feat
+_id: uasrcDefileandEm
+img: icons/magic/control/energy-stream-link-spiral-white.webp
+system:
+  activities:
+    DYWHYnFzCXuX03OS:
+      type: damage
+      name: Expend d6 Hit Dice
+      _id: DYWHYnFzCXuX03OS
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: d6
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    fUv7PKuT52fKVwAG:
+      type: damage
+      name: Expend d4 Hit Dice
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: d4
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      _id: fUv7PKuT52fKVwAG
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    BS2pq03DjmMwie94:
+      type: damage
+      name: Expend d8 Hit Dice
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: d8
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      _id: BS2pq03DjmMwie94
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    stXf9O27DQbgIzCn:
+      type: damage
+      name: Expend d10 Hit Dice
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: d10
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      _id: stXf9O27DQbgIzCn
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    meAdARpLTpexwt6a:
+      type: damage
+      name: Expend d12 Hit Dice
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: d12
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      _id: meAdARpLTpexwt6a
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    8vey9QsIo8ZmmyjB:
+      type: damage
+      name: Expend d20 Hit Dice
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: spec
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 20
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - necrotic
+              - piercing
+              - poison
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      _id: 8vey9QsIo8ZmmyjB
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Once per turn when you roll damage for a spell you cast using a spell
+      slot, you can siphon your life energy into the spell and empower it. Roll
+      a number of your unexpended Hit Point Dice, up to a number equal to half
+      the level of spell slot expended (round up, minimum of one die), and add
+      the total rolled to one damage roll of the spell. Those Hit Point Dice are
+      then expended.</p><p><strong>Life Steal.</strong> Instead of drawing on
+      your own life force when you use this feature, you can try to steal life
+      from another creature you can see within 30 feet of yourself. That
+      creature makes a [[/save con dc=@abilities.wis.dc]]{Constitution saving
+      throw against your spell save DC}; creatures that have Immunity to the
+      &amp;Reference[Exhaustion apply=false] condition automatically succeed on
+      the save. On a failed save, in place of rolling your Hit Point Dice, roll
+      a number of the creature’s unexpended Hit Point Dice, up to a number equal
+      to half the level of slot expended (round down, minimum of one die); you
+      then add that total rolled to one damage roll of the spell, and those Hit
+      Point Dice are expended for the creature.</p><p>Once a creature fails its
+      save against Life Steal, you can’t use Life Steal again until you finish a
+      &amp;Reference[Long Rest] unless you expend 3 Sorcery Points (no action
+      required) to restore your use of it.</p><section class="secret"
+      id="secret-fbeOOEK2z64jNu7F"><p><strong>Foundry Note</strong></p><p>After
+      successfully using Life Steal against a creature, use the expend Hit Die
+      for the Hit Die of the creature and uncheck "Consume Hit Die?" to not
+      consume <em>your</em> Hit Point Dice.</p></section>
+    chat: ''
+  identifier: defile-and-empower
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Defiled Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554258087
+  modifiedTime: 1774554258087
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcDefileandEm'

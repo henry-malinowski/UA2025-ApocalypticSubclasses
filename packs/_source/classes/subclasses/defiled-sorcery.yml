@@ -1,0 +1,124 @@
+folder: 489z1OCUmwjWwMDU
+name: Defiled Sorcery
+type: subclass
+_id: uasrcDefiledSorc
+img: modules/UA2025-ApocalypticSubclasses/assets/icons/classes/defiled.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Siphon Life into Catastrophic
+      Spells</p></blockquote><p>Your innate power siphons life essence from the
+      surrounding world. At your command, creatures grow sick and plants wither
+      to husks. You draw power from the corruption of life itself, draining
+      vitality to fuel destructive magic.</p>
+    chat: ''
+  identifier: defiled
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      _id: kxc0Q5F1zRjCLWbE
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcDefileandEm
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcDefilerSpel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: uSF5IoAIKNUBHmmm
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcCorruptedCa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: Q4cvTxRJk0mXxhCf
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcWitheringAu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: hf08tIrE9Fs5PiM4
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcSuperiorDef
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+    - type: ScaleValue
+      _id: KG8niSIOTLrDPpTX
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '14':
+            value: 15
+          '18':
+            value: 30
+      value: {}
+      title: Withering Aura Size
+      hint: ''
+    - type: Trait
+      _id: fsBpI3peItMl1QnO
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - ci:exhaustion
+          - ci:poisoned
+        mode: default
+      value:
+        chosen: []
+      level: 18
+      title: Superior Defiler (Fouled Soul)
+      hint: You have Immunity to the Poisoned and Exhaustion conditions.
+  classIdentifier: sorcerer
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554140743
+  modifiedTime: 1774554279820
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcDefiledSorc'

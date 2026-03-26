@@ -1,0 +1,19 @@
+name: Sorcerer-King Patron (Warlock)
+sorting: a
+folder: 489z1OCUmwjWwMDU
+type: Item
+_id: LnozOmU4Q3WTNhEq
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: null
+  modifiedTime: 1774550980098
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!LnozOmU4Q3WTNhEq'

@@ -1,0 +1,141 @@
+folder: 489z1OCUmwjWwMDU
+name: Circle of Preservation
+type: subclass
+_id: uadrdCirPreserva
+img: modules/UA2025-ApocalypticSubclasses/assets/icons/classes/preservation.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Safeguard Nature and Heal the
+      World</p></blockquote><p>Druids of the Circle of Preservation work
+      tirelessly to conserve natural resources and restore places once ruined by
+      greed and exploitation. Through a combination of conservation and
+      restorative magic, Druids of this order shield and spread life across the
+      land. The most powerful members of this order can return vitality to
+      barren fields, transforming wastelands into thriving wildernesses once
+      more.</p>
+    chat: ''
+  identifier: circle-of-preservation
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: ScaleValue
+      _id: 7MHlfBg9n39QM5X0
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '3':
+            value: 15
+          '14':
+            value: 30
+      value: {}
+      title: Preserved Land Size
+      hint: ''
+    - type: ItemGrant
+      _id: sPKzlG6nWF6wqUC7
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdSpellsPrese
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdPreservedLa
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdStudentofPr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 9qUPv8F1K8xaHQKF
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdImprovedRes
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 8hwxeAJb7okE7SXa
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdFacilitated
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 10
+      title: Subclass Items
+      hint: ''
+    - type: ItemGrant
+      _id: S3fR8uhYOHUKRApJ
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdSancrosanct
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    - type: Trait
+      _id: XKvZVgj5TanYgrJC
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:art:*
+        grants: []
+        mode: default
+      value:
+        chosen: []
+      level: 3
+      title: Student of Preservation (Tool Proficiency)
+      hint: You gain proficiency with one type of Artisan’s Tools of your choice.
+  classIdentifier: druid
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554129263
+  modifiedTime: 1774554230597
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uadrdCirPreserva'

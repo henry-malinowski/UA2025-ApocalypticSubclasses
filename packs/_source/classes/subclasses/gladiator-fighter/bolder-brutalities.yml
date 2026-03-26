@@ -1,0 +1,79 @@
+folder: WygkYONj32bk1I9J
+name: Bolder Brutalities
+type: feat
+_id: uaftrBolderBruta
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your brutal martial prowess has improved. The following effects are
+      added to your
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00]{Brutality}
+      options.</p><h5>Rive</h5><p>@Embed[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtRive0000000
+      inline]</p><h5>Rush</h5><p>@Embed[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtRush0000000
+      inline]</p><h5>Stagger</h5><p>@Embed[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtStagger0000
+      inline]</p><p></p><section class="secret"
+      id="secret-4IU08PDvrKVhQhRK"><p><strong>Foundry note</strong></p><p>Bolder
+      Brutalities effects granted on level up.</p></section>
+    chat: >-
+      <p>Your brutal martial prowess has improved. The following effects are
+      added to your
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00]{Brutality}
+      options.</p>
+  identifier: bolder-brutalities
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      title: Brutality Effects
+      _id: 3R200IwCrRA5Ea0l
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtRive0000000
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtRush0000000
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtStagger0000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  requirements: Gladiators
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554295338
+  modifiedTime: 1774554379283
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrBolderBruta'

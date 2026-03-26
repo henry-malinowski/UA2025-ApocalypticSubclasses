@@ -1,0 +1,111 @@
+folder: WygkYONj32bk1I9J
+name: Brutal Resurgence
+type: feat
+_id: uaftrBrutalResur
+img: icons/creatures/abilities/mouth-teeth-human.webp
+system:
+  activities:
+    8g7Ulj5iKXNWVWzL:
+      type: utility
+      name: Regain Brutality
+      _id: 8g7Ulj5iKXNWVWzL
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Whenever you use your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrSecondWind]{Second
+      Wind} to regain Hit Points, you regain an expended use of
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00]{Brutality}.
+      You also regain an expended use of Brutality whenever you use your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrActionSurg]{Action
+      Surge}.</p><section class="secret"
+      id="secret-ZsYEwAtM7hBpX0KB"><p><strong>Foundry note</strong></p><p>There
+      feature has an activity that restores a useage of Brutality.</p></section>
+    chat: ''
+  identifier: brutal-resurgence
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 15
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Gladiator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554301488
+  modifiedTime: 1774554307706
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrBrutalResur'

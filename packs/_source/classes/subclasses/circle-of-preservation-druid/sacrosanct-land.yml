@@ -1,0 +1,56 @@
+folder: QMQklSDEO3Reiqqj
+name: Sacrosanct Land
+type: feat
+_id: uadrdSancrosanct
+img: icons/magic/nature/trap-spikes-thorns-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The size of the Cube created by your
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdPreservedLa]{Preserved
+      Land} increases to a 30-foot Cube.</p><p>In addition, when a creature you
+      can see in the area of your Preserved Land is hit by an attack roll, you
+      can take a &amp;Reference[Reaction]{Reaction} to halve that attack’s
+      damage against the creature.</p><section class="secret"
+      id="secret-sgG06NIgdn5SpEiM"><p><strong>Foundry Note</strong></p><p>The
+      size of your Preserved Land updates automatically as you level up. There
+      is no automation provided for halving the damage of an
+      attack.</p></section>
+    chat: ''
+  identifier: sacrosanct-land
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 14
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Circle of Preservation
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554223623
+  modifiedTime: 1774554223623
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uadrdSancrosanct'

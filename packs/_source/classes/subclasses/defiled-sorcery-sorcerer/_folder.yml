@@ -1,0 +1,19 @@
+name: Defiled Sorcery (Sorcerer)
+sorting: a
+folder: 489z1OCUmwjWwMDU
+type: Item
+_id: IJzjCzP6s3Srg6zl
+description: ''
+sort: 200000
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: null
+  modifiedTime: 1774551003628
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!IJzjCzP6s3Srg6zl'

@@ -1,0 +1,127 @@
+folder: LnozOmU4Q3WTNhEq
+name: Vindictive Rebuke
+type: feat
+_id: uawlkVindictiveR
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  activities:
+    WluuzH5AuSGWJqIu:
+      type: damage
+      _id: WluuzH5AuSGWJqIu
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: When an enemy hits you with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@classes.warlock.levels'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              number: 1
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.cha.mod)
+  description:
+    value: >-
+      <p>You learn to rebuff those who challenge you or the might of your
+      patron. When an enemy hits you with an attack roll, you can take a
+      &amp;Reference[Reaction]{Reaction} to force the enemy to reroll the [[/r
+      d20]], and the enemy must use the new roll. If this Reaction turns the
+      attack roll into a miss, the triggering creature takes [[/damage
+      @classes.warlock.levels psychic average]]{Psychic damage equal to your
+      Warlock level}.</p><p>You can use this feature a number of times equal to
+      your Charisma modifier (minimum of once), and you regain all expended uses
+      when you finish a &amp;Reference[Long Rest].</p>
+    chat: ''
+  identifier: vindictive-rebuke
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Sorcerer-King Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554472943
+  modifiedTime: 1774554472943
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkVindictiveR'

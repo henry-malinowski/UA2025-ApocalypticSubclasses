@@ -1,0 +1,190 @@
+folder: WygkYONj32bk1I9J
+name: Flourish Parry
+type: feat
+_id: uaftrFlourishPar
+img: icons/skills/melee/swords-parry-block-yellow.webp
+system:
+  activities:
+    2niqjWzHUl83QrnV:
+      type: utility
+      _id: 2niqjWzHUl83QrnV
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: When an enemy hits you with a melee attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Increased AC
+        formula: '@attributes.ac.value + max(1,@abilities.cha.mod)'
+      name: Increase AC
+      img: icons/svg/sword.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    x29qIrlaqTmM0DkB:
+      type: utility
+      name: Recharge Usage
+      _id: x29qIrlaqTmM0DkB
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbftrSecondWind
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: icons/svg/upgrade.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>You’ve learned to stylishly counter blows from your opponents. When an
+      enemy hits you with a melee attack roll, you can take a
+      &amp;Reference[Reaction]{Reaction} to add your Charisma modifier (minimum
+      of +1) to your AC against the attack, potentially causing the attack to
+      miss.</p><p><strong>Flourish Counter.</strong> If this Reaction causes the
+      attack to miss, you can retaliate with a powerful counterattack as part of
+      the same Reaction. Make an attack roll with a Melee weapon against the
+      triggering creature. If this attack hits, you can use one of your
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00]{Brutality}
+      effects on the target without expending a use of that feature.</p><p>Once
+      this counterattack hits, you can’t use this feature to make another
+      counterattack until you finish a &amp;Reference[Long Rest]. You can also
+      restore your use of this counterattack by expending a use of
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbftrSecondWind]{Second
+      Wind} (no action required).</p><section class="secret"
+      id="secret-HOOvlMfUjJVkP3ij"><p><strong>Foundry Note</strong></p><p>The
+      Reaction here tracks the use per Long Rest and puts you new AC as a roll
+      in chat. If the follow up attack from Flourish Counter missed, click the
+      restore usage button in chat.</p><p>When you use a Brutality Effect,
+      uncheck "Consume uses". </p><p>This feature also has an activity to spend
+      Second Wind to rechage its use.</p></section>
+    chat: ''
+  identifier: flourish-parry
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 7
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Gladiator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554335481
+  modifiedTime: 1774554335481
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrFlourishPar'

@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Subclasses
+color: null
+sorting: a
+_id: 489z1OCUmwjWwMDU
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774550967913
+  modifiedTime: 1774550967913
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!folders!489z1OCUmwjWwMDU'

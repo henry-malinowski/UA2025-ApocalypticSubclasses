@@ -1,0 +1,129 @@
+folder: 489z1OCUmwjWwMDU
+name: Gladiator
+type: subclass
+_id: uaftrGladiator00
+img: modules/UA2025-ApocalypticSubclasses/assets/icons/classes/gladiator.webp
+system:
+  description:
+    value: >-
+      <blockquote><p>Master Brutality and Blood
+      Sport</p></blockquote><p>Gladiators are just as much performers as they
+      are warriors. Whether brawling in underground fighting rings or fighting
+      for survival in bloodstained arenas, a Gladiator combines martial skill
+      with theatrics to awe and intimidate their audiences.</p>
+    chat: ''
+  identifier: gladiator
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      _id: X7yqfJQGCSzmVj8G
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrCombatTheat
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: Trait
+      _id: jhIXxsK5hgPvTqeM
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:dec
+              - skills:itm
+              - skills:prf
+        grants: []
+        mode: default
+      value:
+        chosen: []
+      level: 3
+      title: Bonus Proficiency
+      hint: >-
+        You gain proficiency in one of these skills of your choice: Acrobatics,
+        Athletics, Deception, Intimidation, or Performance.
+    - type: ItemGrant
+      _id: pNdA1NwFJx80Vi3P
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrFlourishPar
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: kYmOVw9zmMq79m36
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutalResur
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: xjAIOw1nezWd0gBd
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrMutilate000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: kK1aKGJ81pBkPSgB
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBolderBruta
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+  classIdentifier: fighter
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554148213
+  modifiedTime: 1774554342259
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrGladiator00'

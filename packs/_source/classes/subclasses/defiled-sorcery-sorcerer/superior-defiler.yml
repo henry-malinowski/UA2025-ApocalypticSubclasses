@@ -1,0 +1,56 @@
+folder: IJzjCzP6s3Srg6zl
+name: Superior Defiler
+type: feat
+_id: uasrcSuperiorDef
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You’ve perfected your ability to control and channel defiling magic,
+      granting you the following benefits.</p><p><strong>Fouled Soul.</strong>
+      You have Immunity to the &amp;Reference[Poisoned apply=false] and
+      &amp;Reference[Exhaustion apply=false] conditions.</p><p><strong>Furthered
+      Defilement.</strong> The size of your
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcWitheringAu]{Withering
+      Aura} increases to a 30-foot Emanation. In addition, enemies can’t regain
+      Hit Points while in your aura.</p><section class="secret"
+      id="secret-N3yX3VkiH9W3XUZe"><p><strong>Foundry Note</strong></p><p>The
+      size of your aura updates automatically as you level up.</p></section>
+    chat: ''
+  identifier: superior-defiler
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 18
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Defiled Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554272791
+  modifiedTime: 1774554279820
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcSuperiorDef'

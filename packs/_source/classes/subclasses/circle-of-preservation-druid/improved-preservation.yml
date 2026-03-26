@@ -1,0 +1,61 @@
+folder: QMQklSDEO3Reiqqj
+name: Improved Preservation
+type: feat
+_id: uadrdImprovedRes
+img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your
+      @UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdPreservedLa]{Preserved
+      Land} becomes more powerful in the following ways.</p><p><strong>Fortify
+      Protectors.</strong> While inside the Cube created by your Preserved Land,
+      you and your allies gain a bonus to Constitution saving throws equal to
+      your Wisdom modifier (minimum of +1). (Currently +[[lookup
+      @abilities.wis.mod]])</p><p><strong>Reject Desecrators.</strong> Whenever
+      the Cube created by your Preserved Land enters an enemy’s space and
+      whenever an enemy enters the Cube or ends its turn there, that enemy makes
+      a [[/save wis dc=@abilities.wis.dc]]{Wisdom saving throw against your
+      spell save DC}. On a failed save, the enemy takes [[/damage 2d10
+      radiant]]{2d10 Radiant damage}, and its &amp;Reference[Speed] is halved
+      until the end of its next turn as new growth rises to hinder it. On a
+      successful save, the enemy takes half as much damage only. An enemy makes
+      this save only once per turn.</p>
+    chat: ''
+  identifier: improved-preservation
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Circle of Preservation
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554198081
+  modifiedTime: 1774554206628
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uadrdImprovedRes'

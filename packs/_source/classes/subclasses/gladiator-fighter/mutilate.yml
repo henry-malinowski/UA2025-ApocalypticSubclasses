@@ -1,0 +1,109 @@
+folder: WygkYONj32bk1I9J
+name: Mutilate
+type: feat
+_id: uaftrMutilate000
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  activities:
+    IhH1qqk26B7JiNEA:
+      type: utility
+      _id: IhH1qqk26B7JiNEA
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>When you hit a &amp;Reference[Bloodied] creature with an attack roll,
+      you can attempt to critically injure it. The target makes a [[/save con
+      dc=@abilities.con.dc]]{Constitution saving throw} (DC 8 plus your Charisma
+      modifier and Proficiency Bonus). On a failed save, the target suffers the
+      following effects:</p><p><strong>Maimed.</strong> If the target takes the
+      Attack action, it can make only one
+      attack.</p><p><strong>Sluggish.</strong> The target’s
+      &amp;Reference[Speed] is halved, and it has a −2 penalty to its Armor
+      Class.</p><p>These effects last until the target regains Hit
+      Points.</p><p>Once a target fails its saving throw against this feature,
+      you can’t use it again until you finish a &amp;Reference[Long
+      Rest].</p><section id="secret-Sib9EsxfhgjXx0yd"
+      class="secret"><p><strong>Foundry Note</strong></p><p>If a creature
+      succeeds on its saving throw again this feature, click "Refund usage" in
+      chat.</p></section>
+    chat: ''
+  identifier: mutilate
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 18
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Gladiator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554342193
+  modifiedTime: 1774554342193
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrMutilate000'

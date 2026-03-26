@@ -1,0 +1,19 @@
+name: Brutality Effects
+sorting: a
+folder: WygkYONj32bk1I9J
+type: Item
+_id: QoRn4e9fs2btLtZH
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 4.4.2
+  createdTime: null
+  modifiedTime: 1774551044458
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+_key: '!folders!QoRn4e9fs2btLtZH'

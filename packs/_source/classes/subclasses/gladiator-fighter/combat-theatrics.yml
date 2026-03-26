@@ -1,0 +1,100 @@
+folder: WygkYONj32bk1I9J
+name: Combat Theatrics
+type: feat
+_id: uaftrCombatTheat
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You’ve honed your combat skills to entertain, devastating opponents and
+      dazzling onlookers. You gain the following
+      benefits.</p><p><strong>Athletic Flair.</strong> Whenever you make a
+      Dexterity (Acrobatics) or Strength (Athletics) check, you gain a bonus to
+      the check equal to your Charisma modifier (minimum of
+      +1).</p><p><strong>Bonus Proficiency.</strong> You gain proficiency in one
+      of these skills of your choice: Acrobatics, Athletics, Deception,
+      Intimidation, or Performance.</p><section id="secret-15j7EtxjJZYDFgu3"
+      class="secret"><p><strong>Foundry Note</strong></p><p>This feature
+      includes an Active Effect which automates the bonus to your Acrobatics and
+      Athletics checks. Bonus Proficiency is granted as you level
+      up.</p></section>
+    chat: ''
+  identifier: combat-theatrics
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Gladiator
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Combat Theatrics
+    img: icons/skills/social/intimidation-impressing.webp
+    origin: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrCombatTheat
+    _id: AnsQSQbBEwbyIznd
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.acr.bonuses.check
+        mode: 2
+        value: (max(1,@abilities.cha.mod))
+        priority: null
+      - key: system.skills.ath.bonuses.check
+        mode: 2
+        value: (max(1,@abilities.cha.mod))
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uaftrCombatTheat.AnsQSQbBEwbyIznd'
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554328153
+  modifiedTime: 1774554328219
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrCombatTheat'

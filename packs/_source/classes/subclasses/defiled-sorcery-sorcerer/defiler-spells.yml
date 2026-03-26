@@ -1,0 +1,155 @@
+folder: IJzjCzP6s3Srg6zl
+name: Defiler Spells
+type: feat
+_id: uasrcDefilerSpel
+img: icons/magic/death/undead-skeleton-worn-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you reach a Sorcerer level specified in the Defiler Spells table,
+      you thereafter always have the listed spells
+      prepared.</p><table><caption>Defiler
+      Spells</caption><thead><tr><td>Sorcerer
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD]{Blindness/Deafness},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict
+      Wounds},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of
+      Enfeeblement},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of
+      Sickness}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs]{Bestow
+      Curse},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo]{Vampiric
+      Touch}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Blight},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat]{Hallucinatory
+      Terrain}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh]{Antilife
+      Shell},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContagion0]{Contagion}</em></td></tr></tbody></table><section
+      class="secret" id="secret-kL8H0ClyrUNajoht"><p><strong>Foundry
+      Note</strong></p><p>The spells will be automatically granted as you level
+      up.</p></section>
+    chat: ''
+  identifier: defiler-spells
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      _id: qIhouN1DqIw7hdP5
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: 0u68RMT5XdC8ju3U
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplVampiricTo
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: rgSuA0g3MI5UNGAQ
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHallucinat
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: NCJOBsydtv2he4Qd
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAntilifeSh
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplContagion0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: Subclass Spells
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Defiled Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554264322
+  modifiedTime: 1774554788826
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcDefilerSpel'

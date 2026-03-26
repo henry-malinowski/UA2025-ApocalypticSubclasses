@@ -1,0 +1,200 @@
+name: UA2025-ApocalypticSubclasses
+_id: uaApocalypticSub
+pages:
+  - sort: 600000
+    name: PDF
+    type: pdf
+    _id: scu196pqdClcPgpc
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/UA2025-ApocalypticSubclasses/assets/pdfs/UA2025-ApocalypticSubclasses.pdf
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    category: null
+    _key: '!journal.pages!uaApocalypticSub.scu196pqdClcPgpc'
+  - sort: 300000
+    name: Circle of Preservation (Druid)
+    type: subclass
+    _id: ZvLHLYOtJ2jmpSmO
+    system:
+      item: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdCirPreserva
+      description:
+        value: >-
+          <blockquote><p>Safeguard Nature and Heal the
+          World</p></blockquote><p>@UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uadrdCirPreserva]{Druids
+          of the Circle of Preservation} work tirelessly to conserve natural
+          resources and restore places once ruined by greed and exploitation.
+          Through a combination of conservation and restorative magic, Druids of
+          this order shield and spread life across the land. The most powerful
+          members of this order can return vitality to barren fields,
+          transforming wastelands into thriving wildernesses once more.</p>
+      style: '2024'
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774554516393
+    category: null
+    _key: '!journal.pages!uaApocalypticSub.ZvLHLYOtJ2jmpSmO'
+  - sort: 400000
+    name: Defiled Sorcery (Sorcerer)
+    type: subclass
+    _id: yMGsUcsSM8yPXXMz
+    system:
+      item: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uasrcDefiledSorc
+      description:
+        value: >-
+          <blockquote><p>Siphon Life into Catastrophic
+          Spells</p></blockquote><p>Your innate power siphons life essence from
+          the surrounding world. At your command, creatures grow sick and plants
+          wither to husks. You draw power from the corruption of life itself,
+          draining vitality to fuel destructive magic.</p>
+      style: '2024'
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    category: null
+    _key: '!journal.pages!uaApocalypticSub.yMGsUcsSM8yPXXMz'
+  - sort: 350000
+    name: Gladiator (Fighter)
+    type: subclass
+    _id: QHnOcwjTujH3VYYl
+    system:
+      item: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrGladiator00
+      description:
+        value: >-
+          <blockquote><p>Master Brutality and Blood
+          Sport</p></blockquote><p>@UUID[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrGladiator00]{Gladiators}
+          are just as much performers as they are warriors. Whether brawling in
+          underground fighting rings or fighting for survival in bloodstained
+          arenas, a Gladiator combines martial skill with theatrics to awe and
+          intimidate their audiences.</p>
+      style: '2024'
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774554531339
+    category: null
+    _key: '!journal.pages!uaApocalypticSub.QHnOcwjTujH3VYYl'
+  - sort: 500000
+    name: Sorcerer-King Patron (Warlock)
+    type: subclass
+    _id: VVZL4fiJ7fvxbSeO
+    system:
+      item: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkSorcererKin
+      description:
+        value: >-
+          <blockquote><p>Herald Tyrannical Might of Monstrous
+          Rulers</p></blockquote><p>Your pact draws from the power of a
+          monstrous, tyrannical force akin to a demigod or an overwhelmingly
+          powerful magic-user. Through your pact, you herald this tyrant’s
+          interests in the world, channeling their influence and mind-bending,
+          psionic power.</p>
+      style: '2024'
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    category: null
+    _key: '!journal.pages!uaApocalypticSub.VVZL4fiJ7fvxbSeO'
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554496568
+  modifiedTime: 1774554496568
+  lastModifiedBy: dnd5ebuilder0000
+categories: []
+_key: '!journal!uaApocalypticSub'

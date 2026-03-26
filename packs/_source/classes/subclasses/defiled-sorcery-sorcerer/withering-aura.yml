@@ -1,0 +1,229 @@
+folder: IJzjCzP6s3Srg6zl
+name: Withering Aura
+type: feat
+_id: uasrcWitheringAu
+img: icons/magic/unholy/orb-swirling-teal.webp
+system:
+  activities:
+    izJ7m1836wfSplrN:
+      type: utility
+      _id: izJ7m1836wfSplrN
+      sort: 100000
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When an enemy dies within the aura
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1d4'
+            target: Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Essence Siphon
+      img: systems/dnd5e/icons/svg/schools/necromancy.svg
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    PyfIt0aehPW2r57u:
+      type: heal
+      name: Defiling Shroud
+      _id: PyfIt0aehPW2r57u
+      sort: 75000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: null
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@abilities.cha.mod'
+        scaling:
+          number: 1
+        bonus: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    3QUDZCiAvCbqRt8k:
+      type: utility
+      name: Withing Aura Emanation
+      _id: 3QUDZCiAvCbqRt8k
+      sort: 50000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '@scale.defiled-sorcery.withering-aura-size'
+          count: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you use your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbscrInnateSorc]{Innate
+      Sorcery}, an aura of defiling magic fills a 15-foot Emanation originating
+      from you while your Innate Sorcery is active, granting you the following
+      additional benefits.</p><p><strong>Defiling Shroud.</strong> When an enemy
+      within the aura hits you with an attack roll, you can reduce that attack’s
+      total damage against you. The reduction equals your Charisma
+      modifier.</p><p><strong>Essence Siphon.</strong> When an enemy dies within
+      the aura, you regain [[/r 1d4]] Sorcery Points. Once you use this benefit,
+      you can’t regain Sorcery Points in this way until you use Innate Sorcery
+      again.</p>
+    chat: ''
+  identifier: withering-aura
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 14
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Defiled Sorcery
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554279743
+  modifiedTime: 1774554279743
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uasrcWitheringAu'

@@ -1,0 +1,91 @@
+folder: WygkYONj32bk1I9J
+name: Brutality
+type: feat
+_id: uaftrBrutality00
+img: icons/skills/melee/maneuver-daggers-paired-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+      - period: sr
+        type: recoverAll
+    max: max(1,@abilities.cha.mod)
+  description:
+    value: >-
+      <p>Shaped by the intensity of the arena, you’ve learned to execute brutal
+      martial moves. Once per turn, when you hit a creature with an attack roll
+      using a Melee weapon, you can add one of the following Brutality effects
+      of your choice. You can do this a number of times equal to your Charisma
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a Short or Long
+      Rest.</p><h5><strong>Bleed</strong></h5><p>@Embed[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtBleed000000
+      inline]</p><h5><strong>Bluff</strong></h5><p>@Embed[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtBluff000000
+      inline]</p><h5><strong>Stumble</strong></h5><p>@Embed[Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtStagger0000
+      inline]</p><section class="secret"
+      id="secret-kMYO570bAuUrqwk7"><p><strong>Foundry Note</strong></p><p>These
+      and later Brutality effects are added as separate features that consume
+      this item's resource.</p></section>
+    chat: >-
+      <p>Shaped by the intensity of the arena, you’ve learned to execute brutal
+      martial moves. Once per turn, when you hit a creature with an attack roll
+      using a Melee weapon, you can add one of the following Brutality effects
+      of your choice. You can do this a number of times equal to your Charisma
+      modifier (minimum of once), and you regain all expended uses when you
+      finish a Short or Long Rest.</p><section class="secret"
+      id="secret-kMYO570bAuUrqwk7"><p><strong>Foundry Note</strong></p><p>These
+      and later Brutality effects are added as separate features that consume
+      this item's resource.</p></section>
+  identifier: brutality
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      title: Brutality Effects
+      _id: Ci9B3wFEzDpeyBw9
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtBleed000000
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtBluff000000
+            optional: false
+          - uuid: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtStumble0000
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Gladiator
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554307641
+  modifiedTime: 1774554387849
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uaftrBrutality00'

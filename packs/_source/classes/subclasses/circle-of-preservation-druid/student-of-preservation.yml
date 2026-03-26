@@ -1,0 +1,117 @@
+folder: QMQklSDEO3Reiqqj
+name: Student of Preservation
+type: feat
+_id: uadrdStudentofPr
+img: icons/commodities/currency/coins-stitched-pouch-brown.webp
+system:
+  activities:
+    ydoluU3OlRCqR4oD:
+      type: utility
+      name: Frugal Casting
+      _id: ydoluU3OlRCqR4oD
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: >-
+          Whenever you cast a Druid spell that requires a Material component
+          that is consumed by the spell
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Is material not Consumed?
+        formula: 1d100cs<=10
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your studies have improved your understanding of the order and
+      resilience of nature, granting you the following
+      benefits.</p><p><strong>Frugal Casting.</strong> When you cast a
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid
+      spell}, you can cast it without &amp;Reference[Material]{Material}
+      components, except Material components that are consumed by the spell or
+      that have a cost specified in the spell.</p><p>Additionally, whenever you
+      cast a Druid spell that requires a Material component that is consumed by
+      the spell, there is a [[/r 1d100cs&lt;=10]]{10 percent chance} that the
+      component isn’t consumed as part of that casting.</p><p><strong>Tool
+      Proficiency.</strong> You gain proficiency with one type of Artisan’s
+      Tools of your choice.</p><section id="secret-bxtWDqBn2KbSJtB7"
+      class="secret"><p><strong>Foundry Note</strong></p><p>Tool Proficiency is
+      automatically granted as you level up.</p></section>
+    chat: ''
+  identifier: student-of-preservation
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Circle of Preservation
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 106250
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554230537
+  modifiedTime: 1774554230537
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uadrdStudentofPr'

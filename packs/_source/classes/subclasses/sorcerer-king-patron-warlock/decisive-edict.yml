@@ -1,0 +1,174 @@
+folder: LnozOmU4Q3WTNhEq
+name: Decisive Edict
+type: feat
+_id: uawlkDecisiveEdi
+img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+system:
+  activities:
+    v5sXeiHEK8qCfjNj:
+      type: save
+      name: Oppress
+      _id: v5sXeiHEK8qCfjNj
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: b8tb7qfbiQQE7WJx
+          level: {}
+          onSave: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: cha
+          formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+      - period: sr
+        type: recoverAll
+    max: '1'
+  description:
+    value: >-
+      <p>Your patron’s power surges through you, allowing you to rally your
+      allies and subjugate your enemies. When you cast a spell using a
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkPactMagic0]{Pact
+      Magic} spell slot, you can cause profane power to erupt in a 30-foot
+      Emanation originating from you. For each creature you can see in the
+      Emanation, choose one of the following
+      effects:</p><p><strong>Marshal.</strong> The creature has
+      &amp;Reference[Advantage] on attack rolls until the end of its next
+      turn.</p><p><strong>Oppress.</strong> The creature must succeed on a
+      [[/save wis dc=@abilities.cha.dc]]{Wisdom saving throw against your spell
+      save DC} or have the &amp;Reference[Frightened] condition until the end of
+      its next turn.</p><p>Once you use this feature, you can’t do so again
+      until you finish a Short or Long Rest. You also regain use of this feature
+      when you use
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkMagicalCun]{Magical
+      Cunning}.</p><section id="secret-rNQemkIce4Ent9kE"
+      class="secret"><p><strong>Foundry Note</strong></p><p>There is no
+      automation for Advantage on attacks granted by Marshal.</p></section>
+    chat: ''
+  identifier: decisive-edict
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 6
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Sorcerer-King Patron
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Decisive Edict (Oppress)
+    img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+    origin: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uawlkDecisiveEdi
+    transfer: false
+    _id: b8tb7qfbiQQE7WJx
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uawlkDecisiveEdi.b8tb7qfbiQQE7WJx'
+sort: 200000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554424796
+  modifiedTime: 1774554424871
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkDecisiveEdi'

@@ -1,0 +1,151 @@
+folder: QoRn4e9fs2btLtZH
+name: 'Brutality: Stagger'
+type: feat
+_id: uabrtStagger0000
+img: icons/skills/targeting/target-glowing-yellow.webp
+system:
+  activities:
+    AgWRzkcCplFAKWTS:
+      type: utility
+      _id: AgWRzkcCplFAKWTS
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: >-
+          Once per turn, when you hit a creature with an attack roll using a
+          Melee weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.UA2025-ApocalypticSubclasses.classes.Item.uaftrBrutality00
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: vcNTt49Y8twHFg0A
+          level: {}
+      range:
+        override: false
+        units: spec
+        special: ''
+        value: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can activate the
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.EOW6yQHLKlXre3jn#slow]{Slow
+      mastery property} in addition to a different mastery property you’re using
+      with that weapon, and the target has &amp;Reference[Disadvantage] on the
+      next saving throw it makes before the end of your next turn.</p>
+    chat: ''
+  identifier: brutality-stagger
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 10
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Gladiator
+  type:
+    value: class
+    subtype: brutalityEffect
+effects:
+  - name: 'Brutality: Stagger'
+    img: icons/skills/targeting/target-glowing-yellow.webp
+    origin: Compendium.UA2025-ApocalypticSubclasses.classes.Item.uabrtStagger0000
+    transfer: false
+    _id: vcNTt49Y8twHFg0A
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature has Disadvantage on the next saving throw it makes before
+      the end of the Gladiator's next turn.</p>
+    tint: '#ffffff'
+    statuses:
+      - marked
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uabrtStagger0000.vcNTt49Y8twHFg0A'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554379222
+  modifiedTime: 1774554379283
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uabrtStagger0000'

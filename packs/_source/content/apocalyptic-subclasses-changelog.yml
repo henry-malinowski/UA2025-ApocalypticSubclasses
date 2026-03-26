@@ -1,0 +1,91 @@
+name: Apocalyptic Subclasses Changelog
+_id: uaChangelog00000
+pages:
+  - sort: 100000
+    name: v1.0.0
+    type: text
+    _id: QxuVASm0x67rf3OZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <ul><li><p>Initial commit</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaChangelog00000.QxuVASm0x67rf3OZ'
+  - sort: 200000
+    name: v2.0.0
+    type: text
+    _id: FkwlNYGN9hPH1AYW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ul><li><p>Added deterministic compendium UUIDs</p><ul><li><p>Breaks
+        progression workflow with characters built using
+        v1.0.0.</p></li></ul></li><li><p>Added media cover and compendium
+        art</p></li><li><p>Restructured compendium for new layout
+        schema</p></li><li><p>Migrated to new build
+        system</p></li><li><p>Improved README.md</p></li><li><p>Added Changelog
+        to repo and module itself</p></li><li><p>Moved to using Advancement Item
+        Grants for subclass spell lists</p></li><li><p>Moved to using
+        Advancement item grants for Brutality Effects</p></li><li><p>Added
+        description level embeds for Brutality effects with H5 to better show up
+        in the journal entries</p></li><li><p>Fixed sourceBook
+        string</p></li><li><p>Removed errant "system" string from <span
+        style="font-family:Courier">module.json</span></p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1774555337038
+    _key: '!journal.pages!uaChangelog00000.FkwlNYGN9hPH1AYW'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554486864
+  modifiedTime: 1774554486864
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaChangelog00000'

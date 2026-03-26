@@ -1,0 +1,161 @@
+folder: LnozOmU4Q3WTNhEq
+name: Sorcerer-King Spells
+type: feat
+_id: uawlkSpellsSorce
+img: icons/magic/control/control-influence-crown-gold.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The magic of your patron ensures you always have certain spells ready;
+      when you reach a Warlock level specified in the Sorcerer-King Spells
+      table, you thereafter always have the listed spells
+      prepared.</p><p><strong>Psionic Casting.</strong> When you cast a spell
+      from the Sorcerer-King Spells table, you can do so without
+      @UUID[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6UXTNWMCQ0nSlwwx]{Verbal}
+      or &amp;Reference[Material]{Material} components, except Material
+      components that are consumed by the spell or that have a cost specified in
+      the spell.</p><table><caption>Sorcerer-King
+      Spells</caption><thead><tr><td>Warlock
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompelledD]{Compelled
+      Duel},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold
+      Person},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Mind
+      Spike},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm]{Wrathful
+      Smite}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{Fear},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{Sending}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{Compulsion},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStaggering]{Staggering
+      Smite}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate
+      Person},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt]{Synaptic
+      Static}</em></td></tr></tbody></table><section class="secret"
+      id="secret-UtRaj9TxBVIgeYVi"><p><strong>Foundry Note</strong></p><p>As you
+      level up these spells will be granted to you automatically.</p></section>
+    chat: ''
+  identifier: sorcerer-king-spells
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      _id: PYcGuMw163zfGEZE
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCompelledD
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: QXygap3zu1CxJy32
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFear000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSending000
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+          method: spell
+      value: {}
+      level: 5
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: mInOH7SWTu9MRjla
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStaggering
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+          method: spell
+      value: {}
+      level: 7
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: 2r0Nz1eoOe7aS2CR
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSynapticSt
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: Subclass Spells
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Sorcerer-King Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554455531
+  modifiedTime: 1774554751991
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkSpellsSorce'

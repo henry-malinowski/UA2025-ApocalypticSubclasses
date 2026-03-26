@@ -1,0 +1,187 @@
+folder: QMQklSDEO3Reiqqj
+name: Preserved Land
+type: feat
+_id: uadrdPreservedLa
+img: icons/environment/wilderness/arch-stone.webp
+system:
+  activities:
+    vMcqBWc1JUenBI32:
+      type: utility
+      name: Create Land
+      _id: vMcqBWc1JUenBI32
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbdrdWildShape0
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: '@scale.circle-of-preservation.preserved-land-size'
+          count: ''
+        affects:
+          choice: false
+          type: space
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    moYFIPGjKvEw2dFl:
+      type: heal
+      name: Bolster
+      _id: moYFIPGjKvEw2dFl
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: Bolster
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 1
+        denomination: 4
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: '@classes.druid.levels'
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As a Bonus Action, you can expend a use of your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdWildShape0]{Wild
+      Shape} to fill a 15-foot Cube originating from a point on the ground you
+      can see within 120 feet of yourself with revitalizing energy. The effect
+      lasts for 1 minute or until you have the &amp;Reference[Incapacitated
+      apply=false] condition, are more than 120 feet away from the Cube, or
+      die.</p><p>Whenever a creature (including you) ends its turn in the Cube,
+      you can grant the creature one of the following
+      benefits:</p><p><strong>Bolster.</strong> The creature gains Temporary Hit
+      Points equal to [[/heal 1d4+@classes.druid.levels temp]]{1d4 plus your
+      Druid level}.</p><p><strong>Purify.</strong> You end one effect on the
+      creature causing it to have the &amp;Reference[Frightened apply=false] or
+      &amp;Reference[Poisoned apply=false] condition.</p><p>In addition,
+      nonmagical vegetation native to the region sprouts on ground within the
+      Cube. This vegetation disappears when the effect ends.</p><p>As a Bonus
+      Action on subsequent turns, you can move the Cube up to 30 feet to another
+      area on the ground within 120 feet of yourself.</p><section class="secret"
+      id="secret-WIfLJYdaqXoPV6CG"><p><strong>Foundry Note</strong></p><p>To
+      move the Preserved Land on subsequent turns, switch to the template layer,
+      and move the previously placed cube tempate.</p></section>
+    chat: ''
+  identifier: preserved-land
+  source:
+    revision: 1
+    rules: '2024'
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Circle of Preservation
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554206570
+  modifiedTime: 1774554206570
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uadrdPreservedLa'

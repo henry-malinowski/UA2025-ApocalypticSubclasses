@@ -1,0 +1,152 @@
+folder: QMQklSDEO3Reiqqj
+name: Circle of Preservation Spells
+type: feat
+_id: uadrdSpellsPrese
+img: icons/magic/life/heart-area-circle-red-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you reach a Druid level specified in the Circle of the
+      Preservation Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Circle of the Preservation
+      Spells</caption><thead><tr><td>Druid Level</td><td>Prepared
+      Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{Bless},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser
+      Restoration},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtection]{Protection
+      from Poison},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbSanctuary0000]{Sanctuary}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeaconofHo]{Beacon
+      of Hope},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{Plant
+      Growth}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife]{Aura
+      of Life},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death
+      Ward}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater
+      Restoration},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow}</em></td></tr></tbody></table>
+    chat: ''
+  identifier: circle-of-preservation-spells
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: ItemGrant
+      _id: EP6xoxZVDQMHiqiD
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBless00000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplProtection
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbSanctuary0000
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+          method: spell
+      value: {}
+      level: 3
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: drHIkZiYQ52vWHnn
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBeaconofHo
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: udtFIIo3PbKzFckk
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: Subclass Spells
+      hint: ''
+    - type: ItemGrant
+      _id: FdDjYim0ASAgb7al
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: Subclass Spells
+      hint: ''
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties: []
+  requirements: Circle of Preservation
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774554184054
+  modifiedTime: 1774554819564
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uadrdSpellsPrese'
